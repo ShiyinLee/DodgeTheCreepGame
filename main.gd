@@ -5,7 +5,7 @@ var score
 
 
 func game_over():
-	#$StartTimer.stop() # Stop it so it doesn't restart the others
+	$StartTimer.stop() # Stop it so it doesn't restart the others
 	$ScoreTimer.stop()
 	$MobTimer.stop()
 	$HUD.update_score(score)
